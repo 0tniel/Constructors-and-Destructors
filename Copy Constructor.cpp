@@ -47,3 +47,17 @@ int main()
     cout << "\nCopied Rectangle:" << endl;
     rect2.display();
 }
+/*
+Enter the length of the rectangle: 5
+Enter the width of the rectangle: 5
+
+Original Rectangle:
+Length: 5
+Width: 5
+Area: 25
+
+Copied Rectangle:
+Length: 5
+Width: 5
+Area: 25
+*/
