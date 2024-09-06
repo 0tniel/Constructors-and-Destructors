@@ -1,3 +1,7 @@
+//Otniel Jhirad
+//23070123069
+//ENTC A3
+//Creating The Constructor Inside The Class
 #include <iostream>
 using namespace std;
 
