@@ -1,11 +1,6 @@
-# Constructors-and-Destructors
-Certainly! Below is the content with HTML tags like `<br>`, `<p>`, and `<code>` to make it suitable for a GitHub README file:
+##  Constructors and Destructors in C++
 
----
-
-## 🚀 Constructors and Destructors in C++
-
-### **📘 Overview**
+### ** Overview**
 <p>
 In C++, <strong>constructors</strong> and <strong>destructors</strong> are special member functions that play a crucial role in object-oriented programming. They manage the initialization and cleanup of objects in a class, ensuring that resources are allocated and released properly.
 </p>
@@ -50,7 +45,7 @@ public:
    </code></pre>
    <br>
 
-### **🔄 Destructors**
+### ** Destructors**
 <p>
 A <strong>destructor</strong> is a special member function that is automatically called when an object goes out of scope or is explicitly deleted. Its main purpose is to release resources allocated by the constructor or during the object's lifetime.
 </p>
@@ -70,12 +65,12 @@ public:
 <li>Unlike constructors, a class can only have one destructor.</li>
 <li>Destructors cannot be overloaded, take arguments, or return values.</li>
 </ul>
+<br>
 
-### **🔍 Conclusion**
-<p>
-Constructors initialize an object when it is created, while destructors clean up before the object is destroyed. C++ allows for different types of constructors to handle various object creation scenarios. Understanding constructors and destructors is key to managing resources efficiently in C++.
-</p>
+## Aim
+<p> To create a C++ program that defines a <code>Date</code> class, which is used to store and display the current date (day, month, and year) entered by the user. </p>
 
----
-
-This content is ready to be included in your GitHub README file with proper formatting, making it both informative and visually appealing.
+### Algorithm
+<p> This algorithm describes the steps involved in the execution of the C++ program that creates a <code>Date</code> class to store and display the current date. </p>
+Steps:
+<ol> <li> <p><strong>Start</strong></p> </li> <li> <p><strong>Declare variables:</strong><br> <code>day</code>, <code>month</code>, and <code>year</code> as integers to store the day, month, and year respectively.</p> </li> <li> <p><strong>Create a class:</strong> Define a class named <code>Date</code> with the following components:</p> <ul> <li> <p><strong>Private Data Members:</strong><br> <code>day</code>, <code>month</code>, and <code>year</code> to store the date information.</p> </li> <li> <p><strong>Public Constructor:</strong><br> A constructor <code>Date(int d, int m, int y)</code> that initializes the <code>day</code>, <code>month</code>, and <code>year</code> with the values passed as arguments.</p> </li> <li> <p><strong>Public Method:</strong><br> A method <code>displayDate()</code> to display the date in the format "day/month/year".</p> </li> </ul> </li> <li> <p><strong>In the <code>main()</code> function:</strong></p> <ul> <li> <p>Prompt the user to enter today's date in the format <code>(day month year)</code>.</p> </li> <li> <p>Read the values for <code>day</code>, <code>month</code>, and <code>year</code> from the user input.</p> </li> <li> <p>Create an object <code>today</code> of the class <code>Date</code>, passing the user-input values as arguments to the constructor.</p> </li> <li> <p>Call the method <code>displayDate()</code> on the <code>today</code> object to display the entered date.</p> </li> </ul> </li> <li> <p><strong>Stop</strong></p> </li> </ol>
