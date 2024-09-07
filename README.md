@@ -1,16 +1,16 @@
 ##  Constructors and Destructors in C++
 
-### ** Overview**
+### Overview
 <p>
 In C++, <strong>constructors</strong> and <strong>destructors</strong> are special member functions that play a crucial role in object-oriented programming. They manage the initialization and cleanup of objects in a class, ensuring that resources are allocated and released properly.
 </p>
 
-### **🛠️ Constructors**
+### Constructors
 <p>
 A <strong>constructor</strong> is a special member function that is automatically called when an object of a class is created. Its primary purpose is to initialize the object's data members.
 </p>
 
-#### **Syntax:**
+#### Syntax:
 <pre><code>class ClassName {
 public:
     ClassName() {
@@ -19,9 +19,9 @@ public:
 };
 </code></pre>
 
-#### **Types of Constructors:**
+#### Types of Constructors:
 
-1. **Default Constructor**:
+1. Default Constructor:
    <p>A constructor that does not take any arguments.</p>
    <pre><code>ClassName() {
        // Default constructor code
@@ -29,7 +29,7 @@ public:
    </code></pre>
    <br>
 
-2. **Parameterized Constructor**:
+2. Parameterized Constructor:
    <p>A constructor that takes parameters to initialize the object's data members with specific values.</p>
    <pre><code>ClassName(int x, int y) {
        // Parameterized constructor code
@@ -37,7 +37,7 @@ public:
    </code></pre>
    <br>
 
-3. **Copy Constructor**:
+3. Copy Constructor:
    <p>A constructor that creates a new object as a copy of an existing object.</p>
    <pre><code>ClassName(const ClassName &obj) {
        // Copy constructor code
@@ -45,12 +45,12 @@ public:
    </code></pre>
    <br>
 
-### ** Destructors**
+### Destructors
 <p>
 A <strong>destructor</strong> is a special member function that is automatically called when an object goes out of scope or is explicitly deleted. Its main purpose is to release resources allocated by the constructor or during the object's lifetime.
 </p>
 
-#### **Syntax:**
+#### Syntax:
 <pre><code>class ClassName {
 public:
     ~ClassName() {
@@ -59,13 +59,14 @@ public:
 };
 </code></pre>
 
-#### **Key Points:**
+#### Key Points:
 <ul>
 <li>The destructor has the same name as the class, but it is preceded by a tilde (~).</li>
 <li>Unlike constructors, a class can only have one destructor.</li>
 <li>Destructors cannot be overloaded, take arguments, or return values.</li>
 </ul>
 <br>
+<h2 style="text-align: center;">Exp 12 A</h2>
 
 ## Aim
 <p> To create a C++ program that defines a <code>Date</code> class, which is used to store and display the current date (day, month, and year) entered by the user. </p>
@@ -79,6 +80,7 @@ Steps:
 
 ![image](https://github.com/user-attachments/assets/9c9a6c1b-0c56-4ac6-a1c0-fbcd8d43823e)
 
+<h2 style="text-align: center;">Exp 12 B</h2>
 ## Aim
 
 <p> To create a C++ program that defines a <code>Date</code> class, with the constructor defined outside the class, and uses it to store and display the current date (day, month, and year) entered by the user. </p>
@@ -118,9 +120,11 @@ Steps:
 <li><p>Stop.</p></li>
 </ol>
 
-### ** Output **
+### Output 
 
 ![image](https://github.com/user-attachments/assets/8fecd5ed-a6a1-404d-89dd-cf80bfe0c9b5)
+
+<h2 style="text-align: center;">Exp 12 C</h2>
 
 ## Aim
 
@@ -158,9 +162,11 @@ Steps:
 <li><p>Stop.</p></li>
 </ol>
 
-### ** Output **
+### Output
 
 ![image](https://github.com/user-attachments/assets/c3adc72f-6687-4267-9139-79cc65a65c36)
+
+<h2 style="text-align: center;">Exp 12 D</h2>
 
 ## Aim
 
@@ -195,6 +201,8 @@ Steps:
 ## Output
 
 ![image](https://github.com/user-attachments/assets/3ea59af2-0cf7-4b10-9b7b-d40ec13b1fff)
+
+<h2 style="text-align: center;">Exp 12 E</h2>
 
 ## Aim
 
